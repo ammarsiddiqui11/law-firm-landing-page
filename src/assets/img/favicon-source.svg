@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1B2D"/>
+      <stop offset="100%" stop-color="#0F1B2D"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" fill="url(#g)"/>
+  <rect x="1" y="1" width="62" height="62" fill="none" stroke="#B08D4F" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="50%" y="48%" font-family="monospace" font-size="12" fill="#B08D4F" text-anchor="middle" dominant-baseline="middle">FAVICON</text>
+  <text x="50%" y="58%" font-family="monospace" font-size="10" fill="#B08D4F" fill-opacity="0.7" text-anchor="middle" dominant-baseline="middle">64 x 64</text>
+</svg>
