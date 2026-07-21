@@ -12,10 +12,10 @@ export default function Careers() {
           proud of.
         </p>
         <a
-          href="mailto:careers@whitfieldcole.example"
+          href="mailto:careers@bhatiandco.example"
           className="inline-block border border-brass text-brass px-6 sm:px-8 py-3 text-sm uppercase tracking-wide hover:bg-brass hover:text-ink transition-colors break-all sm:break-normal"
         >
-          careers@whitfieldcole.example
+          careers@bhatiandco.example
         </a>
       </div>
     </section>
