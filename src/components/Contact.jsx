@@ -115,11 +115,11 @@ export default function Contact() {
         {/* info + map */}
         <div className="lg:col-span-2">
           <div className="border border-hairline p-6 sm:p-8 mb-6">
-            <h3 className="font-display text-xl mb-4">Whitfield &amp; Cole</h3>
+            <h3 className="font-display text-xl mb-4">Bhati &amp; Co</h3>
             <p className="text-slate text-sm leading-relaxed mb-1">42 Fenwick Street, Suite 300</p>
             <p className="text-slate text-sm leading-relaxed mb-4">Mumbai, Maharashtra 400001</p>
             <p className="text-slate text-sm leading-relaxed mb-1">Phone: +91 22 4000 1234</p>
-            <p className="text-slate text-sm leading-relaxed mb-4">Email: intake@whitfieldcole.example</p>
+            <p className="text-slate text-sm leading-relaxed mb-4">Email: intake@bhatiandco.example</p>
             <div className="flex gap-4 pt-2">
               <a href="#" aria-label="Facebook" className="social-icon">FB</a>
               <a href="#" aria-label="LinkedIn" className="social-icon">IN</a>

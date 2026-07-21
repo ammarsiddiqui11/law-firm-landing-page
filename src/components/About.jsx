@@ -10,7 +10,7 @@ export default function About() {
             Judgment earned through decades of practice.
           </h2>
           <p className="text-slate leading-relaxed mb-4 text-sm sm:text-base">
-            Whitfield &amp; Cole was founded on a simple premise: clients deserve a lawyer who treats their matter
+            Bhati &amp; Co was founded on a simple premise: clients deserve a lawyer who treats their matter
             with the same rigor as if it were the firm&rsquo;s only case. That principle still shapes how we staff,
             prepare, and argue every file today.
           </p>

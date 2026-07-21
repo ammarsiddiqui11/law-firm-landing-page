@@ -22,7 +22,7 @@ export default function Hero() {
           className="mt-5 sm:mt-6 text-paper/80 text-sm sm:text-base md:text-lg max-w-xl mx-auto fade-up"
           style={{ animationDelay: '.2s' }}
         >
-          Whitfield &amp; Cole represents individuals, families, and businesses with clear guidance and disciplined
+          Bhati &amp; Co represents individuals, families, and businesses with clear guidance and disciplined
           advocacy &mdash; from first consultation to final resolution.
         </p>
         <div
