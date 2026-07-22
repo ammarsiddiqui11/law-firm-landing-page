@@ -116,8 +116,8 @@ export default function Contact() {
         <div className="lg:col-span-2">
           <div className="border border-hairline p-6 sm:p-8 mb-6">
             <h3 className="font-display text-xl mb-4">Bhati &amp; Co</h3>
-            <p className="text-slate text-sm leading-relaxed mb-1">42 Fenwick Street, Suite 300</p>
-            <p className="text-slate text-sm leading-relaxed mb-4">Mumbai, Maharashtra 400001</p>
+            <p className="text-slate text-sm leading-relaxed mb-1">Office no. 321, 3rd Floor, Dheeraj Heritage, commercial building</p>
+            <p className="text-slate text-sm leading-relaxed mb-4">Sane Guruji Rd, off Swami Vivekanand Road, Milan Subway, Santacruz (West), Mumbai, Maharashtra 400054</p>
             <p className="text-slate text-sm leading-relaxed mb-1">Phone: +91 22 4000 1234</p>
             <p className="text-slate text-sm leading-relaxed mb-4">Email: intake@bhatiandco.example</p>
             <div className="flex gap-4 pt-2">
@@ -132,7 +132,7 @@ export default function Contact() {
               className="w-full h-full grayscale-[40%]"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps?q=Nariman+Point,Mumbai,Maharashtra&output=embed"
+              src="https://www.google.com/maps?q=Dheeraj+Heritage,+Sane+Guruji+Rd,+Santacruz+West,+Mumbai,+Maharashtra+400054&output=embed"
             />
           </div>
         </div>
