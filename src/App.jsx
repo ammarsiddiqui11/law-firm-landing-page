@@ -9,10 +9,12 @@ import Careers from './components/Careers.jsx'
 import FAQ from './components/FAQ.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
+import Disclaimer from './components/Disclaimer.jsx'
 
 export default function App() {
   return (
     <div className="overflow-x-hidden">
+      <Disclaimer />
       <Navbar />
       <Hero />
       <TrustBadges />
