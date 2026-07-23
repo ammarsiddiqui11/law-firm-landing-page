@@ -9,12 +9,28 @@ export default function PracticeAreas() {
         <h2 className="font-display text-2xl sm:text-3xl md:text-4xl mt-3 mb-10 sm:mb-14 leading-snug max-w-xl">
           Practice areas built around how clients actually run into trouble.
         </h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-paper/10">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {PRACTICE_AREAS.map((area) => (
-            <div key={area.title} className="bg-ink px-6 sm:px-8 py-8 sm:py-9 border border-paper/8">
-              <Icon name={area.icon} className="h-7 w-7 sm:h-8 sm:w-8 text-brass mb-4 sm:mb-5" />
-              <h3 className="font-display text-lg sm:text-xl mb-2">{area.title}</h3>
-              <p className="text-paper/70 text-sm leading-relaxed">{area.desc}</p>
+            <div
+              key={area.title}
+              className="group relative bg-ink px-6 sm:px-8 py-8 sm:py-9 border border-paper/15 overflow-hidden h-full flex flex-col"
+            >
+              <div
+                className="absolute -inset-px bg-brass translate-y-full transition-transform duration-500 ease-out group-hover:translate-y-0"
+                aria-hidden="true"
+              />
+              <div className="relative z-10 flex flex-col flex-1">
+                <Icon
+                  name={area.icon}
+                  className="h-7 w-7 sm:h-8 sm:w-8 text-brass group-hover:text-ink mb-4 sm:mb-5 transition-colors duration-500"
+                />
+                <h3 className="font-display text-lg sm:text-xl mb-2 text-paper group-hover:text-ink transition-colors duration-500">
+                  {area.title}
+                </h3>
+                <p className="text-paper/70 group-hover:text-ink/80 text-sm leading-relaxed transition-colors duration-500">
+                  {area.desc}
+                </p>
+              </div>
             </div>
           ))}
         </div>
