@@ -15,13 +15,10 @@ export default function PracticeAreas() {
               key={area.title}
               className="group relative bg-ink px-6 sm:px-8 py-8 sm:py-9 border border-paper/15 overflow-hidden h-full flex flex-col"
             >
-              {/* Sliding color overlay */}
               <div
-                className="absolute inset-0 bg-brass translate-y-full transition-transform duration-500 ease-out group-hover:translate-y-0"
+                className="absolute -inset-px bg-brass translate-y-full transition-transform duration-500 ease-out group-hover:translate-y-0"
                 aria-hidden="true"
               />
-
-              {/* Content sits above the overlay */}
               <div className="relative z-10 flex flex-col flex-1">
                 <Icon
                   name={area.icon}
