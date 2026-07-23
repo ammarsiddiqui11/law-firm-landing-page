@@ -11,7 +11,7 @@ import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
 import Disclaimer from './components/Disclaimer.jsx'
 import WhyChooseUs from './components/WhyChooseUs.jsx'
-
+import WhatsAppButton from './components/WhatsAppButton.jsx';
 export default function App() {
   return (
     <div className="overflow-x-hidden">
@@ -28,6 +28,7 @@ export default function App() {
       <FAQ />
       <Contact />
       <Footer />
+      <WhatsAppButton />
     </div>
   )
 }
