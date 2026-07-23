@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
-import TrustBadges from './components/TrustBadges.jsx'
+// import TrustBadges from './components/TrustBadges.jsx'
 import About from './components/About.jsx'
 import PracticeAreas from './components/PracticeAreas.jsx'
 import Process from './components/Process.jsx'
@@ -10,6 +10,7 @@ import FAQ from './components/FAQ.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
 import Disclaimer from './components/Disclaimer.jsx'
+import WhyChooseUs from './components/WhyChooseUs.jsx'
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
       <Disclaimer />
       <Navbar />
       <Hero />
-      <TrustBadges />
+      <WhyChooseUs />
+      {/* <TrustBadges /> */}
       <About />
       <PracticeAreas />
       <Process />

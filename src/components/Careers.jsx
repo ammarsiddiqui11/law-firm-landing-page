@@ -2,7 +2,7 @@ export default function Careers() {
   return (
     <section id="careers" className="py-16 sm:py-24 md:py-28 bg-ink text-paper">
       <div className="max-w-4xl mx-auto px-5 sm:px-6 lg:px-10 text-center">
-        <p className="eyebrow text-brass justify-center">No. 05 &mdash; Join Us</p>
+        <p className="eyebrow text-brass justify-center"> &mdash; Join Us</p>
         <h2 className="font-display text-2xl sm:text-3xl md:text-4xl mt-3 mb-5 sm:mb-6 leading-snug">
           We hire for judgment, not just credentials.
         </h2>

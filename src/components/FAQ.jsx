@@ -34,7 +34,7 @@ export default function FAQ() {
   return (
     <section id="faq" className="py-16 sm:py-24 md:py-32">
       <div className="max-w-3xl mx-auto px-5 sm:px-6 lg:px-10">
-        <p className="eyebrow">No. 06 &mdash; Frequently Asked</p>
+        <p className="eyebrow"> &mdash; Frequently Asked</p>
         <h2 className="font-display text-2xl sm:text-3xl md:text-4xl mt-3 mb-10 sm:mb-14 leading-snug">
           Questions we hear before the first meeting.
         </h2>

@@ -57,7 +57,7 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10 grid lg:grid-cols-5 gap-10 lg:gap-14">
         {/* form */}
         <div className="lg:col-span-3">
-          <p className="eyebrow">No. 07 &mdash; Contact Us</p>
+          <p className="eyebrow"> &mdash; Contact Us</p>
           <h2 className="font-display text-2xl sm:text-3xl md:text-4xl mt-3 mb-4 leading-snug">Tell us what happened.</h2>
           <p className="text-slate mb-8 max-w-lg text-sm sm:text-base">
             Fields marked required. We keep every submission confidential and reply within one business day.

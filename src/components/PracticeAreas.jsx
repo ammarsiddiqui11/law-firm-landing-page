@@ -5,7 +5,7 @@ export default function PracticeAreas() {
   return (
     <section id="practice-areas" className="py-16 sm:py-24 md:py-32 bg-ink text-paper">
       <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10">
-        <p className="eyebrow text-brass">No. 02 &mdash; What We Do</p>
+        <p className="eyebrow text-brass"> &mdash; What We Do</p>
         <h2 className="font-display text-2xl sm:text-3xl md:text-4xl mt-3 mb-10 sm:mb-14 leading-snug max-w-xl">
           Practice areas built around how clients actually run into trouble.
         </h2>

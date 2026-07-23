@@ -4,7 +4,7 @@ export default function Process() {
   return (
     <section id="process" className="py-16 sm:py-24 md:py-32">
       <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10">
-        <p className="eyebrow">No. 03 &mdash; How It Works</p>
+        <p className="eyebrow"> &mdash; How It Works</p>
         <h2 className="font-display text-2xl sm:text-3xl md:text-4xl mt-3 mb-10 sm:mb-16 leading-snug max-w-xl">
           A straightforward path from first call to resolution.
         </h2>

@@ -15,7 +15,7 @@ export default function Footer() {
           ))}
           <a href="#contact" className="hover:text-paper transition-colors">Contact</a>
         </nav>
-        <p className="text-xs">&copy; {new Date().getFullYear()} Bhati &amp; Co Attorneys at Law. Attorney advertising. Powered by LeapUp Digital</p>
+        <p className="text-xs">&copy; {new Date().getFullYear()} Bhati &amp; Co. Powered by LeapUp Digital</p>
       </div>
     </footer>
   )
