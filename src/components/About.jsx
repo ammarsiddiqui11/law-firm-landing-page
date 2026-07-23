@@ -1,4 +1,4 @@
-import aboutOffice from '../assets/img/about-office.svg'
+import aboutOffice from '../assets/img/AboutOffice.JPG'
 
 export default function About() {
   return (
@@ -34,7 +34,7 @@ export default function About() {
           </dl>
         </div>
         <div className="order-1 md:order-2">
-          <img src={aboutOffice} alt="Whitfield & Cole office" className="w-full h-auto shadow-sm" />
+          <img src={aboutOffice} alt="Whitfield & Cole office" className="w-full h-auto shadow-md" />
         </div>
       </div>
     </section>

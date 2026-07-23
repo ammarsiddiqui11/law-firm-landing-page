@@ -1,4 +1,4 @@
-import heroBg from '../assets/img/hero-bg.svg'
+import heroBg from '../assets/img/Hero.JPG'
 
 export default function Hero() {
   return (
@@ -6,8 +6,12 @@ export default function Hero() {
       id="top"
       className="relative min-h-[560px] h-[100svh] flex items-center justify-center text-center overflow-hidden"
     >
-      <img src={heroBg} alt="" className="absolute inset-0 w-full h-full object-cover" />
-      <div className="absolute inset-0 bg-ink/75" />
+      <img
+        src={heroBg}
+        alt=""
+        className="absolute inset-0 w-full h-full object-cover object-[38%_center] sm:object-center"
+      />
+      <div className="absolute inset-0 bg-ink/90" />
       <div className="relative z-10 px-5 sm:px-6 max-w-3xl pt-16">
         <p className="uppercase tracking-[0.3em] sm:tracking-[0.35em] text-brass text-xs sm:text-sm mb-5 sm:mb-6 fade-up">
           Attorneys at Law &middot; Since 1998
