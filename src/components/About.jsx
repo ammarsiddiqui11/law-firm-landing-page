@@ -28,7 +28,7 @@ export default function About() {
           </p>
           <dl className="grid grid-cols-3 gap-4 sm:gap-6 border-t border-hairline pt-6 sm:pt-8">
             <div>
-              <dt className="font-display text-2xl sm:text-3xl text-brass-dark">27+</dt>
+              <dt className="font-display text-2xl sm:text-3xl text-brass-dark">17+</dt>
               <dd className="text-[11px] sm:text-xs uppercase tracking-wide text-slate mt-1">Years in Practice</dd>
             </div>
             <div>

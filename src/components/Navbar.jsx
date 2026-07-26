@@ -26,7 +26,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-10 flex items-center justify-between h-16 sm:h-20">
         <a href="#top" className="font-display text-lg sm:text-xl tracking-wide text-paper" onClick={() => setOpen(false)}>
-          Bhati <span className="text-brass">&amp;</span> Co
+          Bhati <span className="text-brass">&amp;</span> Companies
         </a>
 
         {/* Desktop nav */}

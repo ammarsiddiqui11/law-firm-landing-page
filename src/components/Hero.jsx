@@ -48,7 +48,7 @@ export default function Hero() {
         </div>
       </div>
       <a
-        href="#trust"
+        href="#contact"
         className="hidden sm:block absolute bottom-8 left-1/2 -translate-x-1/2 text-paper/60 z-10"
         aria-hidden="true"
       >

@@ -15,7 +15,17 @@ export default function Footer() {
           ))}
           <a href="#contact" className="hover:text-paper transition-colors">Contact</a>
         </nav>
-        <p className="text-xs">&copy; {new Date().getFullYear()} Bhati &amp; Co. Powered by LeapUp Digital</p>
+        <p className="text-xs">
+          &copy; {new Date().getFullYear()} Bhati &amp; Co. Powered by{' '}
+          <a
+            href="https://leapupdigital.in"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-brass hover:text-paper transition-colors"
+          >
+            LeapUpDigital.in
+          </a>
+        </p>
       </div>
     </footer>
   )
