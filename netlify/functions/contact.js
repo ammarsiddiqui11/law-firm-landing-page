@@ -55,13 +55,13 @@ exports.handler = async (event) => {
       str.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
     await transporter.sendMail({
-      from: `"Whitfield & Cole Website" <${process.env.SMTP_USER}>`,
+      from: `"Bhati Associates Website" <${process.env.SMTP_USER}>`,
       to: process.env.MAIL_TO,
       replyTo: email,
       subject: `New enquiry from ${name} — website contact form`,
       text: `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\nPractice Area: ${practiceArea || 'Not specified'}\n\nCase Details:\n${caseDetail}`,
       html: `
-        <h2>New website enquiry</h2>
+        <h2>New Case enquiry</h2>
         <p><strong>Name:</strong> ${escapeHtml(name)}</p>
         <p><strong>Phone:</strong> ${escapeHtml(phone)}</p>
         <p><strong>Email:</strong> ${escapeHtml(email)}</p>
