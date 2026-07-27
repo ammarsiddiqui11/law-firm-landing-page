@@ -1,7 +1,7 @@
 const VALUE_PROPS = [
   {
     title: 'Direct Access to Senior Counsel',
-    desc: 'No hand-offs to unnamed associates — you work with the partner handling your case.',
+    desc: 'No hand-offs to unnamed associates, you work with the partner handling your case.',
     icon: (
       <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75M4.5 10.5h15l-1 9a1.5 1.5 0 01-1.5 1.5H7a1.5 1.5 0 01-1.5-1.5l-1-9z" />
     ),
@@ -15,7 +15,7 @@ const VALUE_PROPS = [
   },
   {
     title: 'Clear, Upfront Fees',
-    desc: 'Fee structures are agreed before work begins — no surprise billing at the end of a matter.',
+    desc: 'Fee structures are agreed before work begins, no surprise billing at the end of a matter.',
     icon: (
       <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m4.5-9.75H10.5a2.25 2.25 0 000 4.5h3a2.25 2.25 0 010 4.5H7.5" />
     ),

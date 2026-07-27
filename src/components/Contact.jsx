@@ -115,17 +115,65 @@ export default function Contact() {
         {/* info + map */}
         <div className="lg:col-span-2">
           <div className="border border-hairline p-6 sm:p-8 mb-6">
-            <h3 className="font-display text-xl mb-4">Bhati &amp; Co</h3>
-            <p className="text-slate text-sm leading-relaxed mb-1">Office no. 321, 3rd Floor, Dheeraj Heritage, commercial building</p>
-            <p className="text-slate text-sm leading-relaxed mb-4">Sane Guruji Rd, off Swami Vivekanand Road, Milan Subway, Santacruz (West), Mumbai, Maharashtra 400054</p>
-            <p className="text-slate text-sm leading-relaxed mb-1">Phone: +91 22 4000 1234</p>
-            <p className="text-slate text-sm leading-relaxed mb-4">Email: intake@bhatiandco.example</p>
-            <div className="flex gap-4 pt-2">
-              <a href="#" aria-label="Facebook" className="social-icon">FB</a>
-              <a href="#" aria-label="LinkedIn" className="social-icon">IN</a>
-              <a href="#" aria-label="Twitter / X" className="social-icon">X</a>
+              <h3 className="font-display text-xl mb-4">Bhati &amp; Companies.</h3>
+
+              <div className="text-slate text-sm leading-relaxed mb-4">
+                <p>Office no. 321, 3rd Floor,</p>
+                <p>Dheeraj Heritage Commercial Building,</p>
+                <p>Sane Guruji Road, off Swami Vivekanand Road,</p>
+                <p>Near Milan Subway,</p>
+                <p>Santacruz (West), Mumbai, Maharashtra - 400054</p>
+              </div>
+
+              <p className="text-slate text-sm leading-relaxed mb-1">
+                <strong>Phone No.</strong> -{" "}
+                <a href="tel:+917208287938" className="hover:text-primary transition-colors">
+                  +91 72082 87938
+                </a>
+              </p>
+
+              <p className="text-slate text-sm leading-relaxed mb-4">
+                <strong>Email</strong> -{" "}
+                <a
+                  href="mailto:bhatiandcompanies@gmail.com"
+                  className="hover:text-primary transition-colors"
+                >
+                  bhatiandcompanies@gmail.com
+                </a>
+              </p>
+
+              <div className="flex gap-4 pt-2">
+                <a
+                  href="https://facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  className="social-icon"
+                >
+                  FB
+                </a>
+
+                <a
+                  href="https://linkedin.com/company/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                  className="social-icon"
+                >
+                  IN
+                </a>
+
+                <a
+                  href="https://x.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Twitter / X"
+                  className="social-icon"
+                >
+                  X
+                </a>
+              </div>
             </div>
-          </div>
           <div className="border border-hairline overflow-hidden h-56 sm:h-64 md:h-72">
             <iframe
               title="Office location map"
