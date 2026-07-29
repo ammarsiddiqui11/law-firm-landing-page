@@ -1,8 +1,8 @@
-import aboutOffice1 from '../assets/img/AboutOffice.JPG'
-import aboutOffice2 from '../assets/img/AboutOffice2.JPG'
-import aboutOffice3 from '../assets/img/AboutOffice3.JPG'
-import aboutOffice4 from '../assets/img/AboutOffice4.JPG'
-import aboutOffice5 from '../assets/img/AboutOffice5.JPG'
+import aboutOffice1 from '../assets/img/AboutOffice.avif'
+import aboutOffice2 from '../assets/img/AboutOffice2.avif'
+import aboutOffice3 from '../assets/img/AboutOffice3.avif'
+import aboutOffice4 from '../assets/img/AboutOffice4.avif'
+import aboutOffice5 from '../assets/img/AboutOffice5.avif'
 
 import Slideshow from './Slideshow.jsx'
 
